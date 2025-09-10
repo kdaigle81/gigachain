@@ -85,7 +85,7 @@ SDK доступны на языках:
 ### Универсальный агент Giga Agent
 ### 🤖GigaAgent
 [GigaAgent](https://github.com/ai-forever/giga_agent) — это универсальный агент-оркестратор для решения широкого круга задач.
-Например, он может [придумать мем](docs/examples/memes/chat.pdf), [описать бизнес-модель стартапа](docs/examples/lean_canvas/lean_canvas.pdf) или [создать лендинг](docs/examples/changelog_landing/changelog_landing.pdf).
+Например, он может [придумать мем](https://github.com/ai-forever/giga_agent/blob/main/docs/examples/memes/chat.pdf), [описать бизнес-модель стартапа](https://github.com/ai-forever/giga_agent/blob/main/docs/examples/lean_canvas/lean_canvas.pdf) или [создать лендинг](https://github.com/ai-forever/giga_agent/blob/main/docs/examples/changelog_landing/changelog_landing.pdf).
 Для этого GigaAgent использует субагентов, среду для исполнения кода и сторонние сервисы.
 
 ## Утилиты и MCP-сервера
