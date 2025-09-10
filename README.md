@@ -81,6 +81,12 @@ SDK доступны на языках:
 
 [`gigachat-java`](https://github.com/ai-forever/gigachat-java) | [Сборник примеров](https://github.com/ai-forever/gigachat-java/blob/main/gigachat-java-example/README.md)
 
+## Агенты
+### Универсальный агент Giga Agent
+### 🤖GigaAgent
+[GigaAgent](https://github.com/ai-forever/giga_agent) — это универсальный агент-оркестратор для решения широкого круга задач.
+Например, он может [придумать мем](docs/examples/memes/chat.pdf), [описать бизнес-модель стартапа](docs/examples/lean_canvas/lean_canvas.pdf) или [создать лендинг](docs/examples/changelog_landing/changelog_landing.pdf).
+Для этого GigaAgent использует субагентов, среду для исполнения кода и сторонние сервисы.
 
 ## Утилиты и MCP-сервера
 
