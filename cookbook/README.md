@@ -20,5 +20,6 @@
 | [repl_graph](/cookbook/repl_graph/repl.ipynb)                                   | Создание базового агента способного решать задачи пользователей с помощью написания кода                                            | 
 | [structured_output](/cookbook/structured_output/structured_output.ipynb)        | Получение данных от GigaChat в структурированном формате (JSON, Pydantic)                                                           | 
 | [tagme-agent](/cookbook/tagme-agent/tagme-agent.ipynb)                          | Агент, получающий обратную связь от разметчиков через платформу TagMe                                                               |
+| [tagme-traces](https://github.com/ai-forever/tagme-ai-traces)                   | Пример совместного использования TagMe AI Traces, LangChain и GigaChat                                                              |
 | [yandex_search/retriever](/cookbook/yandex_search/retriever.ipynb)              | Реализация RAG (Retrieval Augmented Generation) на основе GigaChat API и Yandex Search API                                          |
 | [yandex_search/tool](/cookbook/yandex_search/tool.ipynb)                        | Пример агента, использующего Yandex Search API, для текстового поиска в интернете                                                   |
