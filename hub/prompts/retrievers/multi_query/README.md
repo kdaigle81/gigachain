@@ -13,7 +13,7 @@ from langchain.retrievers.multi_query import JSONLineListOutputParser
 
 llm = ...hub/ # желательно 70b
 insurance_prompt = load_prompt(
-    'lc://prompts/retrievers/multi_query/insurance_agent.yaml'
+    'insurance_agent.yaml'
 )
 llm_chain = LLMChain(
     llm=llm,

@@ -21,7 +21,7 @@ from langchain.prompts import load_prompt
 from langchain.chains import LLMChain
 
 llm = ...
-synonyms_with_examples = load_prompt('lc://prompts/synonyms/synonyms_generation_with_examples.yaml')
+synonyms_with_examples = load_prompt('synonyms_generation_with_examples.yaml')
 text = prompt.format(dataset_size_min=5,
                         dataset_size_max=10,
                         subject="кошка",

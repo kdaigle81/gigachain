@@ -12,10 +12,10 @@
 
 ```python
 from langchain.prompts import load_prompt
-from langchain_community.chat_models import GigaChat
+from langchain_gigachat import GigaChat
 from langchain.chains import LLMChain
 
 giga = GigaChat(credentials="...")
-prompt = load_prompt('lc://prompts/hello_world/prompt.yaml')
+prompt = load_prompt('prompt.yaml')
 chain = LLMChain(llm=giga, prompt=prompt)
 ```

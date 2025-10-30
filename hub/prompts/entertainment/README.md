@@ -11,6 +11,6 @@ from langchain.prompts import load_prompt
 from langchain.chains import LLMChain
 
 llm = ...hub/
-meditation_prompt = load_prompt('lc://prompts/entertainment/meditation.yaml')
+meditation_prompt = load_prompt('meditation.yaml')
 text = meditation_prompt.format(background="sea waves", topic="утро на море")
 ```

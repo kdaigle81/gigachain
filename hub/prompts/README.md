@@ -75,12 +75,9 @@ _type: prompt
 
 ```python
 from langchain.prompts import load_prompt
-from langchain_community.chat_models import GigaChat
-from langchain.chains import LLMChain
 
-giga = GigaChat(oauth_token="...")
-synonyms_with_examples = load_prompt('lc://prompts/synonyms/synonyms_generation_with_examples.yaml')
-text = prompt.format(dataset_size_min=5,
+synonyms_with_examples = load_prompt('hub/prompts/synonyms/intent_generation_with_examples.yaml')
+text = synonyms_with_examples.format(dataset_size_min=5,
                         dataset_size_max=10,
                         subject="кошка",
                         examples='["кот", "котёнок"]')

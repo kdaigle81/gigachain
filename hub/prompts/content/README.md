@@ -8,10 +8,10 @@
 ```python
 from langchain.prompts import load_prompt
 from langchain.chains import LLMChain
-from langchain_community.chat_models import GigaChat
+from langchain_gigachat import GigaChat
 
 llm = GigaChat(credentials="...")
-prompt = load_prompt('lc://prompts/content/spell_correction.yaml')
+prompt = load_prompt('spell_correction.yaml')
 chain = prompt | llm
 text = chain.invoke({"text": "искуственый - интилектможет исправить все ошибки в даном тексте вне зависимости от длинны"})
 ```

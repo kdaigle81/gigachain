@@ -33,6 +33,6 @@ from langchain.prompts import load_prompt
 from langchain.chains import LLMChain
 
 llm = ...hub/
-qna_system_prompt = load_prompt('lc://prompts/qna/qna_system.yaml')
+qna_system_prompt = load_prompt('qna_system.yaml')
 text = qna_system_prompt.format(text="... text of your documents ...")
 ```
