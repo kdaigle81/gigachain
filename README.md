@@ -39,9 +39,9 @@ GigaChain – это набор решений для создания прил�
 
 ### Python [![PyPI - Downloads](https://img.shields.io/pypi/dm/langchain-gigachat?style=flat-round)](https://pypistats.org/packages/langchain-gigachat)[![GitHub star chart](https://img.shields.io/github/stars/ai-forever/langchain-gigachat?style=flat-round)](https://www.star-history.com/#ai-forever/langchain-gigachat)
 
-[`langchain-gigachat`](https://github.com/ai-forever/langchain-gigachat/blob/master/libs/gigachat/README-ru_RU.md) – интеграционная библиотека для работы с LangChain и LangGraph.
+[`langchain-gigachat`](https://github.com/ai-forever/langchain-gigachat) – интеграционная библиотека для работы с LangChain и LangGraph.
 
-[Быстрый старт](https://github.com/ai-forever/langchain-gigachat/blob/master/libs/gigachat/README-ru_RU.md#%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82) | [Сборник примеров](/cookbook/README.md)
+[Быстрый старт](https://github.com/ai-forever/langchain-gigachat?tab=readme-ov-file#quick-start) | [Сборник примеров](/cookbook/README.md)
 
 [Документация LangChain](https://python.langchain.com/docs/introduction/) | [Документация LangGraph](https://langchain-ai.github.io/langgraph/) | [Чат-бот по документации](https://chat.langchain.com)
 
