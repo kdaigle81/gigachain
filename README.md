@@ -99,6 +99,10 @@ SDK доступны на языках:
 * [n8n](https://n8n.io/) — платформа для создания no-code-агентов.
 * [Cline](https://github.com/cline/cline?tab=readme-ov-file#cline--1-on-openrouter) | [Roo Code](https://github.com/RooVetGit/Roo-Code/blob/main/locales/ru/README.md#roo-code-%D1%80%D0%B0%D0%BD%D0%B5%D0%B5-roo-cline) — AI-ассистенты для разработки, которые можно интегрировать в редактор кода.
 
+### Бенчмарки
+
+[`harness-bench-fast`](https://github.com/ai-forever/harness-bench-fast) — бенчмарк для быстрой оценки harness.
+
 ### MCP-сервера
 
 Model Context Protocol — открытый протокол, который унифицирует обмен контекстом между приложением и LLM. Использование MCP упрощает подключение больших языковых моделей к различным функциям (*инструментам*) и источникам данных.
